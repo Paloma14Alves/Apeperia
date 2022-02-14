@@ -1,0 +1,82 @@
+
+
+.institucional__descricao {
+    margin-bottom: 2rem;
+    text-align: center;
+    
+}
+.institucional__titulo {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 9%;
+}
+.institucional__endereco {
+    font-size: 1.5rem;
+    line-height: normal;
+
+    margin-bottom: 2rem;
+    text-align: center;
+
+    
+}
+
+.institucional__contato {
+    font-size: 1.2rem;
+    line-height: 1.8;
+
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+.institucional__telefone {
+    line-height: normal;
+    text-align: center;
+
+}
+
+.institucional__email {
+    color: var(--fonte-link);
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+
+}
+
+.institucional__video {
+    width: 100%;
+    margin-bottom: 3rem;
+
+    display: inline-block;
+
+}
+
+@media screen and (min-width:768px ) {
+    .institucional__email {
+        display: inline-block;
+    }
+
+    .institucional__video {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px ) {
+    .institucional__conteudo {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .institucional__video {
+        align-self: flex-end;
+
+        width: 375px;
+    }
+
+    .institucional__email {
+        display: block;
+    }
+}
